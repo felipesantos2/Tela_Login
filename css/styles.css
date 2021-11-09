@@ -1,0 +1,132 @@
+
+* {
+        /* remove a margem Externa de todos os lados do elemento */
+    margin: 0;
+
+    /* Remove o espaçamento interno de todos os lados do elemento */
+    padding: 0;
+
+    /* O preenchimento e a borda serão incluidos na larguara e altura */
+    box-sizing: border-box;
+
+    font-family: 'Roboto', 'Lato', sans-serif;
+ 
+}
+
+body {
+
+    /* Altura Minima dpo elemento. */
+    /* Unidade De tamanho de tela VH e VW. */
+    background: #2E2E2E;
+    min-height :100vh;
+
+    /* torna um elemento um flex container  autoamaticamente, transformado
+    seus filhos também */
+    display: flex;
+
+    /* Alinha os flex itens de acordo com o eixo do conteiner */
+    align-items: center;
+
+    /* Alinha os itens flex no container de acordo com a direção */
+    justify-content: center;
+
+
+}
+
+form {
+    background-color:white;
+    border-radius:10px;
+    /* largura maxima */
+    max-width: 500px;
+    /* Gera um espaço ao redor  do conteúdo do elemento */
+    /* 50px top e bottom */
+    /* 40px left e right */
+    padding: 50px 40px;
+    box-shadow: 5px 5px 15px;
+}
+
+form h1 {
+    text-align: center;
+    /* criar espaços ao redor do elemento */
+    margin: 48px 0;
+    font-size: 36px;
+    color: #111;
+
+}
+
+.container {
+/* Margem inferior do elemento  */
+    margin-bottom: 12px;
+
+    /* RELATIVE - indica que esta posição é em relação a sua posição normal */
+    /* Sua posição NORMAL */
+    position: relative;
+ 
+}
+.container input {
+    /* lagura do elemento */
+    width: 100%;
+    /* Altura do elemento */
+    height: 70px;
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 4px;
+    color: #333;
+    font-size: 18px;
+    /* Largura do contorno do texto */
+    font-weight: 700;
+    padding: 14px 60px 0 14px;
+
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #9D9D9D;
+   
+    position: absolute;
+    line-height: 70px;
+    top: 0;
+    left: 20px
+} 
+
+button {
+    /* Não permite outros elementos ao lado */
+    /* Exeto se ouver a propriedade float */
+    display: block;
+    /* float: right; */
+    width: 100px;
+    height: 44px;
+    margin: 40px auto;
+    background-color: #00acd7;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s linear;
+    
+    
+
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+form a {
+    clear: both;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+
+}
+
+form a:hover {
+    color: black;
+}

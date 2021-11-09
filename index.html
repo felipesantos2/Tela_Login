@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     
-    <title>LOGIN</title>   
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+ 
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+
+    <link href = "https: //fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap "rel =" stylesheet ">
+
+    <link href = "https: //fonts.googleapis.com/css2? family = Lato & display = swap "rel =" stylesheet ">
+
+    <title>LOGIN</title>
 </head>
+
 <body>
+  <!-- Envia a entrad do usuario a um servidor GET ou POST -->
+  
+        <form action="#" method="post">
+            <h1>Login</h1>
 
+            <div class="container">
+                <label for="email">E-mail</label>
+                <input type="email" required name="email" autocomplete="off" >
+            </div>
 
+            <div class="container">
+                <label for="password">Senha</label>
+                <input type="password" required name="Password" autocomplete="off">
+            </div>
+
+            <!-- Botão que envia o formulario -->
+            <button type="button">Entrar</button>
+
+            <!-- Redirecinamento -->
+            <a href="#">Esqueceu a senha</a>
+            <a href="#">Criar Conta</a>
+
+            <!-- <input type="submit" name="submit" id="submit" value="Entrar"> -->
+        </form>
 </body>
+
 </html>
